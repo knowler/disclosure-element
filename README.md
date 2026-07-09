@@ -30,4 +30,7 @@ When there’s no JS, it just acts normally. When there is JS, the structure upg
 ## Styling
 
 - `:state(open)` can be used for styling when the element is open.
+    - Similar to `:open`.
+- `::part(contents)` can be used to style the disclosed contents.
+    - Similar to `::details-contents`.
 - `::part(disclosure-button)` of the first element in the `summary` slot.
