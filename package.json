@@ -11,5 +11,6 @@
 	],
 	"license": "Unlicense",
 	"type": "module",
-	"module": "./disclosure-element.js"
+	"main": "./disclosure-element.js",
+	"files": []
 }
