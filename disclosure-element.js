@@ -21,7 +21,7 @@ export class DisclosureElement extends HTMLElement {
 				cursor: text;
 				overflow: visible;
 
-				/* We need to do this instead of display: list-item + ::marker because Blink and WebKit have special handling for `<button>` elements which overrides the `list-item` display. */
+				/* We need to do this instead of display: list-item + ::marker because Blink and WebKit have special handling for <button> elements which overrides the list-item display. */
 
 				&::before {
 					display: inline;
