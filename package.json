@@ -1,0 +1,11 @@
+{
+	"name": "@knowler/disclosure-element",
+	"version": "0.0.0",
+	"author": "Nathan Knowler",
+	"description": "A disclosure custom element that’s friendly to heading elements.",
+	"homepage": "https://github.com/knowler/disclosure-element",
+	"keywords": ["custom element", "web component", "disclosure widget"],
+	"license": "Unlicense",
+	"type": "module",
+	"module": "./disclosure-element.js"
+}
