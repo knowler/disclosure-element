@@ -27,7 +27,7 @@ Create your sectioned content how you normally would, except wrap with the custo
 
 By default, the element has an implicit `group` role similar to the `<details>` element, but is unnamed. It’s likely a good idea to leave it that way.
 
-Generally, it’d be a good idea to bundle the custom element definition and load it in a parser/render blocking way to avoid any flash of unstyled custom element. That might go against your performance sensibilities, but consider the fact that built-in HTML elements are predefined before the body loads and there’s no flash of undefined `<details>` element. No need to hide the element and its contents until the definition — it’s semantically accessible and visually presentable without the enhancement of being a disclosure.
+Generally, it’d be a good idea to bundle the custom element definition and load it in a parser/render blocking way to avoid any flash of unstyled custom element. That might go against your performance sensibilities, but consider the fact that built-in HTML elements are predefined before the body loads and there’s no flash of undefined `<details>` element. No need to hide the element and its contents until the definition — it’s semantically accessible and visually presentable without the enhancement of being a disclosure. Define early and avoid a host of problems.
 
 ## Styling
 
