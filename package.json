@@ -1,6 +1,6 @@
 {
 	"name": "@knowler/disclosure-element",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"author": "Nathan Knowler",
 	"description": "A disclosure custom element that’s friendly to heading elements.",
 	"homepage": "https://github.com/knowler/disclosure-element",
@@ -12,5 +12,7 @@
 	"license": "Unlicense",
 	"type": "module",
 	"main": "./disclosure-element.js",
-	"files": ["./disclosure-element.js"]
+	"files": [
+		"./disclosure-element.js"
+	]
 }
